@@ -1,0 +1,15 @@
+# Ignore Terraform State
+*.tfstate
+*.tfstate.*
+
+# Ignore Variables containing secrets
+*.tfvars
+
+# Ignore AWS credentials or keys
+*.pem
+.aws/
+aws/
+
+# Ignore Terraform plugins
+.terraform/
+.terraform.lock.hcl
